@@ -65,7 +65,8 @@ export const MARQUEE_TEXT: MarqueeType[] = [
     { id: 'express', name: 'Express' },
     { id: 'mongodb', name: 'MongoDB' },
     { id: 'firebase', name: 'Firebase' },
-    { id: 'postman', name: 'Postman' }
+    { id: 'postman', name: 'Postman' },
+    { id: 'jira', name: 'Jira' }
 ]
 
 export const PROJECTS_DATA: ProjectType[] = [

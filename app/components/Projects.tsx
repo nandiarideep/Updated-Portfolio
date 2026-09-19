@@ -1,7 +1,7 @@
 import { PROJECTS_DATA } from '@constants/index'
 import Image from 'next/image'
 
-const Projects: React.FC = () => {
+const Projects = () => {
     return (
         <main className='p-8' id='projects'>
             <h2 className='mb-10 text-center text-3xl lg:text-8xl'>My Work</h2>

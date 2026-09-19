@@ -5,7 +5,11 @@ import { LuImport } from 'react-icons/lu'
 const Hero = () => {
     return (
         <main className='flex flex-col items-center justify-center'>
-            <h1 className='mt-10 overflow-hidden text-[10vw] font-semibold uppercase leading-none text-white'>Arideep<br />Nandi</h1>
+            <h1 className='mt-10 overflow-hidden text-[10vw] font-semibold uppercase leading-none text-white'>
+                <span className='hover:text-lime-300 transition-colors duration-100'>Arideep</span>
+                <br />
+                <span className='hover:text-lime-300 transition-colors duration-100'>Nandi</span>
+            </h1>
             <div className='mt-8'>
                 <a
                     href="/Resume.pdf"
@@ -14,7 +18,7 @@ const Hero = () => {
                     download
                     className='flex items-center rounded-xl bg-lime-300 p-2 px-3 font-sans font-medium text-black hover:bg-lime-400'
                 >
-                    <span>Resume.pdf</span>
+                    <span className='font-semibold'>Resume.pdf</span>
                     <LuImport className='ml-2' />
                 </a>
             </div>

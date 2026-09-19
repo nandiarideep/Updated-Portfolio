@@ -1,6 +1,6 @@
 import { ABOUT_TEXT } from '@constants/index'
 
-const About: React.FC = () => {
+const About = () => {
     return (
         <main id='about' className='text-white'>
             <h2 className='mt-10 text-center text-3xl lg:text-8xl'>About Me</h2>

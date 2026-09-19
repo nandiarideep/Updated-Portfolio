@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
                     >
                         <ul className='space-y-6 text-3xl'>
                             {LINKS.map((link) => (
-                                <motion.li 
+                                <motion.li
                                     key={link.id}
                                     variants={linkvariants}
                                 >

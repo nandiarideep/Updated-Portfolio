@@ -2,7 +2,7 @@
 import { MARQUEE_TEXT } from '@constants/index'
 import { motion } from 'framer-motion'
 
-const Marquee: React.FC = () => {
+const Marquee = () => {
     const repeatedText = [...MARQUEE_TEXT, ...MARQUEE_TEXT] // duplicate for seamless loop
 
     return (
