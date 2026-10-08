@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type Experiences = {
     id: string
     company: string
@@ -8,9 +10,9 @@ export type Experiences = {
     image: string
 }
 
-export type AboutText = {
-    id: string
-    name: string
+export interface AboutText {
+    id: string;
+    name: ReactNode;
 }
 
 export type LinkType = {

@@ -6,9 +6,9 @@ export const EXPERIENCES: Experiences[] = [
         id: 'hexalytics',
         company: 'Hexalytics',
         location: 'Chennai, Tamil Nadu',
-        year: 'Jan 2026 - Present',
-        role: 'Frontend Developer',
-        description: 'Developed & collaborated on several projects using React, Tailwind CSS, TypeScript and Next.js, ensuring high-quality code and optimal performance, Fixed bugs and optimized application performance, Collaborated with cross-functional teams to design and implement new features.',
+        year: 'Jan 2026 - Sep 2026',
+        role: 'Associate Data Visualization Enthusiast',
+        description: 'Developed & collaborated across 3 different client projects, contributing to frontend development, feature implementation, API integration, debugging, and maintenance using React, Next.js, TypeScript, and modern UI libraries, Developed and delivered 6+ application screens and key features, while also resolving issues across multiple existing modules, Raised and contributed to 200+ Pull Requests covering new feature development, bug fixes, UI enhancements, API integrations, and code improvements, while collaborating with the team through code reviews and testing.',
         image: '/hex.jpg',
     },
     {
@@ -42,8 +42,57 @@ export const EXPERIENCES: Experiences[] = [
 
 export const ABOUT_TEXT: AboutText = {
     id: "about",
-    name: "Hello! I'm Arideep, a passionate software developer and gaming content creator with a knack for crafting engaging digital experiences. With a strong foundation in JavaScript, React, and Next.js, I love building dynamic web applications that blend functionality with clean, modern design. Beyond development, I’m also a gaming YouTuber, where I share gameplay, insights, and creative content with a growing audience. My journey is driven by curiosity and a constant desire to learn—whether it's exploring new frameworks, improving user experiences, or leveling up my content creation skills. When I’m not coding or gaming, you’ll find me experimenting with new tech, refining my craft, or contributing to exciting ideas. Let’s connect and create something amazing together!"
-}
+    name: (
+        <>
+            Hello! I’m Arideep, a passionate software developer and gaming content
+            creator with a knack for crafting engaging digital experiences. With a
+            strong foundation in{" "}
+            <span className="bg-lime-300 px-1.5 py-0.5 text-black mx-1 inline-block rounded-sm">
+                JavaScript, React, and Next.js
+            </span>
+            , I enjoy building dynamic web applications that combine functionality
+            with clean, modern design.
+
+            <br />
+            <br />
+
+            Currently, I’m taking the next step in my development journey by
+            expanding into{" "}
+            <span className="bg-lime-300 px-1.5 py-0.5 text-black mx-1 inline-block rounded-sm">
+                full-stack development
+            </span>
+            . I’m actively learning and working with{" "}
+            <span className="bg-lime-300 px-1.5 py-0.5 text-black mx-1 inline-block rounded-sm">
+                Node.js, Express.js, MongoDB, and Mongoose
+            </span>
+            , along with other backend technologies to strengthen my understanding of
+            building complete, scalable applications — from designing user
+            interfaces to developing APIs, managing databases, and handling
+            server-side logic.
+
+            <br />
+            <br />
+
+            Beyond development, I’m also a gaming YouTuber, where I share gameplay,
+            insights, and creative content with a growing audience. My journey is
+            driven by curiosity and a constant desire to learn—whether it’s exploring
+            new frameworks, improving user experiences, understanding backend
+            architecture, or leveling up my content creation skills.
+
+            <br />
+            <br />
+
+            When I’m not coding or gaming, you’ll find me experimenting with new
+            technologies, building projects, refining my craft, or exploring
+            exciting ideas.{" "}
+            <span className="bg-lime-300 px-1.5 py-0.5 text-black mx-1 inline-block rounded-sm">
+                I’m always looking for opportunities to learn, build, and grow as a
+                developer.
+            </span>{" "}
+            Let’s connect and create something amazing together!
+        </>
+    ),
+};
 
 export const LINKS: LinkType[] = [
     { id: 'about', name: 'About' },
@@ -70,7 +119,7 @@ export const MARQUEE_TEXT: MarqueeType[] = [
 ]
 
 export const PROJECTS_DATA: ProjectType[] = [
-    { id: 'project1', name: 'Trek Manthan', link: '', image: '/project1.webp', description: 'A fullstack responsive travel website & an insights dashboard built with React and Next.js.' },
+    { id: 'project1', name: 'Trek Manthan', link: 'https://github.com/nandiarideep/Trek-Manthan', image: '/project1.webp', description: 'A fullstack responsive travel website & an insights dashboard built with React and Next.js.' },
     { id: 'project2', name: 'Codebase', link: 'https://github.com/nandiarideep/Codebase-React', image: '/project2.webp', description: 'A modern codebase management tool built with React and Vite.' },
     { id: 'project3', name: 'Taskify', link: '', image: '/project4.webp', description: 'A fullstack task management application built with React and Vite' },
     // { id: 'project4', name: 'Project 4', link: 'https://example.com/project4', image: '/project4.webp', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' },

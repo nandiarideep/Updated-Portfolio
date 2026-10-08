@@ -5,7 +5,7 @@ import Projects from '@components/Projects'
 import About from '@components/About'
 import Experiences from './components/Experiences'
 import Contact from './components/Contact'
-import MusicPlayer from './components/MusicPlayer'
+// import MusicPlayer from './components/MusicPlayer'
 
 const page = () => {
   return (
@@ -17,7 +17,7 @@ const page = () => {
       <Experiences />
       <Projects />
       <Contact />
-      <MusicPlayer />
+      {/* <MusicPlayer /> */}
     </main>
   )
 }
